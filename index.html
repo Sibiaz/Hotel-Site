@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отель "Уютный берег"</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Отель "Уютный берег"</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <section id="about">
+      <h2>О нашем отеле</h2>
+      <p>Добро пожаловать в "Уютный берег" — идеальное место для отдыха и релаксации.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Галерея</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/400" alt="Фото отеля 1">
+        <img src="https://via.placeholder.com/400" alt="Фото отеля 2">
+        <img src="https://via.placeholder.com/400" alt="Фото отеля 3">
+        <img src="https://via.placeholder.com/400" alt="Фото отеля 4">
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <h2>Отзывы</h2>
+      <div class="review">
+        <p><strong>Анна:</strong> Отличное место для отдыха!</p>
+      </div>
+      <div class="review">
+        <p><strong>Иван:</strong> Прекрасный сервис и уютные номера.</p>
+      </div>
+      <div class="review-form">
+        <h3>Оставить отзыв</h3>
+        <form id="reviewForm">
+          <input type="text" id="name" placeholder="Ваше имя" required>
+          <textarea id="message" placeholder="Ваш отзыв" required></textarea>
+          <button type="submit">Добавить отзыв</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer id="contacts">
+    <p>Контакты: +7 123 456 7890 | уютныйберег@отель.ру</p>
+    <p>&copy; 2024 "Уютный берег". Все права защищены.</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
